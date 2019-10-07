@@ -1,0 +1,19 @@
+{
+  "name": "bem",
+  "version": "1.0.0",
+  "description": "Implement scss using BEM classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ujiri Ukiri",
+  "license": "ISC",
+  "homepage": "https://github.com/ujiriukiri/bem#readme",
+  "devDependencies": {
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}

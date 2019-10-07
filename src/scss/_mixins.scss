@@ -1,0 +1,20 @@
+@mixin border-radius($per:50%){
+	-webkit-border-radius: $per;
+	-moz-border-radius: $per;
+	border-radius: $per;
+}
+
+@mixin box-shadow($prop){
+  -webkit-box-shadow: $prop;
+  -moz-box-shadow: $prop;
+  box-shadow: $prop;
+}
+
+@mixin alert-variant($color) {
+  background-color: $color;
+  background-image: linear-gradient(to right, lighten($color, 15%) , $color);
+}
+
+@mixin alert-btn-variant($color) {
+  color: $color;
+}

@@ -1,0 +1,15 @@
+// Colors
+$warning: #ff8000 !default;
+$error: #ff0000 !default;
+$success: #00ff00 !default;
+
+$colors: () !default;
+
+$colors: map-merge(
+  (
+    "warning":    $warning,
+    "error":  $error,
+    "success":    $success,
+  ),
+  $colors
+);
